@@ -31,112 +31,147 @@ export function PortfolioSection() {
   const projects = [
     {
       id: 1,
-      title: "EHR Data Warehouse & Visualization",
+      title: "RSV Fitness Studio",
       description:
-        "Developed and managed a data warehousing system for Electronic Health Records (EHR) using C#, SSIS, and Python. Led a team that transformed and standardized over 5 million EHR records into HL7 FHIR format via Mirth Connect.",
+        "Built a role-based Gym Management SaaS platform with QR attendance tracking, membership management, payment tracking, analytics dashboards, multilingual support, and automated reminder workflows for fitness businesses.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/Data_Visualization_fiaioo.png",
-      category: "Data Engineering",
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1781185890/screencapture-localhost-3000-sign-in-2026-05-15-11_49_50_dvrb38.png",
+      category: "SaaS",
       technologies: [
-        "C#",
-        "SSIS",
-        "Apache Airflow",
-        "Mirth Connect",
-        "HL7 FHIR",
-        "Python",
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Tailwind CSS",
+        "JWT",
+        "REST API",
       ],
       featured: true,
     },
     {
       id: 2,
-      title: "Local Store WhatsApp Chatbot",
+      title: "Bar Vault Management System",
       description:
-        "Built the backend for a Blinkit-style WhatsApp chatbot using Node.js. Integrated WhatsApp API, set up business number via Facebook, and automated ordering and support workflows.",
+        "Developed a role-based bar management platform with dedicated dashboards for administrators, managers, and employees. Features include inventory tracking, billing operations, revenue analytics, reporting, user management, and branch-level access control.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/ChatBot_picspo.png",
-      category: "Web Development",
-      technologies: ["Node.js", "WhatsApp API", "Facebook Business"],
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1781185856/screencapture-bar-eta-five-vercel-app-login-2026-06-07-20_57_44_rcnwfv.png",
+      category: "SaaS",
+      technologies: [
+        "Next.js",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "JWT Authentication",
+      ],
       featured: true,
     },
     {
       id: 3,
-      title: "Facial Emotion Detection System",
+      title: "EHR Data Warehouse & Visualization",
       description:
-        "Designed and implemented a proof-of-concept AI tool for facial emotion detection. The system was built using Python and OpenCV.",
+        "Developed and managed a healthcare data warehousing platform that transformed and standardized over 5 million Electronic Health Records into HL7 FHIR format using Python, SSIS, Apache Airflow, and Mirth Connect.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/Emotion_detection_rxi73p.png",
-      category: "AI/ML",
-      technologies: ["Python", "OpenCV"],
-      featured: false,
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/Data_Visualization_fiaioo.png",
+      category: "Data Engineering",
+      technologies: [
+        "Python",
+        "SSIS",
+        "Apache Airflow",
+        "Mirth Connect",
+        "HL7 FHIR",
+        "SQL Server",
+      ],
+      featured: true,
     },
     {
       id: 4,
-      title: "Real-time Stock Analysis API",
+      title: "Fish & Meat E-Commerce Platform",
       description:
-        "Developed a real-time stock candlestick analysis API using Python. This API also integrated with asynchronous WhatsApp messaging to provide financial notifications.",
+        "Developed a complete e-commerce platform for online fish and meat sales with customer ordering workflows, cart management, authentication, order processing, and an administrative dashboard.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185556/sentiment_analysis_sq6vyn.png",
-      category: "AI/ML",
-      technologies: ["Python", "APIs"],
-      featured: false,
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/fish_website_rn9rx9.png",
+      category: "Web Development",
+      technologies: [
+        "Vite",
+        "Next.js",
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "MongoDB",
+      ],
+      featured: true,
     },
     {
       id: 5,
-      title: "Jira Clone",
+      title: "Real-Time Stock Analysis API",
       description:
-        "A full-stack project management application built as a clone of Jira, using Next.js.",
+        "Built a backend platform for market sentiment analysis and stock intelligence using Python APIs. Integrated automated financial notifications and asynchronous messaging workflows.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185555/Jira_clone_shln7j.png",
-      category: "Web Development",
-      technologies: ["Next.js"],
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185556/sentiment_analysis_sq6vyn.png",
+      category: "AI/ML",
+      technologies: ["Python", "Flask", "REST API", "OpenAI", "Automation"],
       featured: true,
     },
     {
       id: 6,
-      title: "Sports Tournament App",
-      description: "Developed a sports tournament application using Next.js.",
+      title: "Jira Clone",
+      description:
+        "Built a project management platform inspired by Jira with task tracking, workflow management, authentication, and collaborative project organization features.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/Sports_App_egdmin.png",
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185555/Jira_clone_shln7j.png",
       category: "Web Development",
-      technologies: ["Next.js"],
+      technologies: ["Next.js", "React", "Node.js", "MongoDB"],
       featured: false,
     },
     {
       id: 7,
-      title: "Second-Hand Bikes & Car Selling Website",
+      title: "WhatsApp Business Automation Bot",
       description:
-        "Created a platform for buying and selling second-hand bikes and cars using Next.js for a fast, responsive, and SEO-friendly experience.",
+        "Developed a WhatsApp automation system for customer engagement, reminders, and business workflows with scheduled messaging and backend integrations.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185555/second_hand_vehicle_qrbogr.png",
-      category: "Web Development",
-      technologies: ["Next.js", "React", "Tailwind CSS", "Node.js"],
-      featured: true,
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/ChatBot_picspo.png",
+      category: "Automation",
+      technologies: [
+        "Node.js",
+        "MongoDB",
+        "WhatsApp API",
+        "GitHub Actions",
+        "Cron Jobs",
+      ],
+      featured: false,
     },
     {
       id: 8,
-      title: "Fish & Meat Sale Website",
+      title: "Facial Emotion Detection System",
       description:
-        "Developed a complete e-commerce platform for selling fish and meat online using Vite for the frontend and Next.js for backend and admin panel.",
+        "Designed and implemented an AI-powered facial emotion detection system using Python, TensorFlow, and OpenCV for real-time emotion classification.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/fish_website_rn9rx9.png",
-      category: "Web Development",
-      technologies: ["Vite", "Next.js", "React", "Node.js", "Tailwind CSS"],
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/Emotion_detection_rxi73p.png",
+      category: "AI/ML",
+      technologies: ["Python", "TensorFlow", "OpenCV", "Flask"],
       featured: false,
     },
     {
       id: 9,
-      title: "Color & Number Betting Website",
+      title: "Sports Tournament Management System",
       description:
-        "Developed a betting platform using PHP and MySQL (MariaDB). Users can bet on a color (2x payout) or a number (5x payout) and win if their guess is correct.",
+        "Developed a tournament management platform for organizing sports events, teams, schedules, scores, and competition workflows.",
       image:
-        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185553/betting_site_zdeyyq.png",
+        "https://res.cloudinary.com/dau24dmlo/image/upload/v1759185554/Sports_App_egdmin.png",
       category: "Web Development",
-      technologies: ["PHP", "MySQL", "MariaDB", "HTML", "CSS", "JavaScript"],
+      technologies: ["Next.js", "React", "Node.js"],
       featured: false,
     },
   ];
 
-  const categories = ["All", "Web Development", "Data Engineering", "AI/ML"];
+  const categories = [
+    "All",
+    "SaaS",
+    "Web Development",
+    "Data Engineering",
+    "AI/ML",
+    "Automation",
+  ];
 
   const filteredProjects =
     activeFilter === "All"

@@ -137,3 +137,12 @@
 .delay-500 {
   animation-delay: 500ms;
 }
+
+.hero-section {
+  background: #000;
+  color: #fff;
+}
+
+.hero-section * {
+  color-scheme: dark;
+}

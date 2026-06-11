@@ -28,83 +28,47 @@ export function AboutSection() {
   }, []);
 
   const skills = [
-    "Python",
-    "SQL",
-    "JavaScript",
-    "TypeScript",
-    "Node.js",
-    "C#",
-    ".NET",
-    "Rust",
-    "MongoDB",
-    "SQL Server",
-    "Firebase",
-    "Parquet",
-    "Azure",
-    "MySQL",
-    "AWS",
-    "Apache Airflow",
-    "Mirth Connect",
-    "n8n",
-    "SSIS",
-    "CI/CD",
-    "Git",
-    "GitHub",
-    "BitBucket",
-    "API Integrations",
-    "Webhooks",
-    "HL7 FHIR",
-    "EHR Systems",
-    "REST APIs",
-    "JSON",
-    "Jira",
-    "Docker",
-    "Kubernetes",
-    "Clerk Auth",
     "React",
     "Next.js",
-    "Bootstrap",
-    "MUI",
-    "Shadcn",
-    "GitHub Actions",
+    "TypeScript",
+    "Node.js",
+    "FastAPI",
+    "Python",
+    "MongoDB",
+    "PostgreSQL",
+    "AWS",
+    "Docker",
+    "Apache Airflow",
+    "HL7 FHIR",
+    "REST APIs",
+    "AI Integrations",
     "Automation",
-    "Version Control",
-    "VPN",
-    "Scripting",
-    "Analytic Leadership",
-    "Team Management",
-    "Communication",
-    "Collaboration",
-    "Problem Solving",
-    "Troubleshooting",
-    "App Development",
-    "Observability",
   ];
 
   const highlights = [
     {
+      icon: Code,
+      title: "SaaS Development",
+      description:
+        "Building scalable SaaS platforms, admin dashboards, CRM systems, and business applications.",
+    },
+    {
       icon: Database,
       title: "Data Engineering",
       description:
-        "Designing ETL pipelines, normalizing healthcare data, and ensuring data quality",
-    },
-    {
-      icon: Code,
-      title: "Full Stack Development",
-      description:
-        "Building modern web applications with React, Next.js, Node.js, and APIs",
-    },
-    {
-      icon: Cloud,
-      title: "Cloud & DevOps",
-      description:
-        "Deploying scalable solutions on AWS & Azure with Docker, Kubernetes, and CI/CD",
+        "Designing ETL pipelines, healthcare data platforms, HL7 FHIR transformations, and analytics solutions.",
     },
     {
       icon: Workflow,
-      title: "Automation & Integration",
+      title: "Automation & AI",
       description:
-        "Automating workflows with Airflow, n8n, and API integrations to boost efficiency",
+        "Creating AI-powered applications, WhatsApp automation, integrations, and workflow orchestration.",
+    },
+    {
+      icon: Cloud,
+      title: "Cloud & Deployment",
+      description:
+        "Deploying secure and scalable applications using AWS, Docker, CI/CD, and modern cloud infrastructure.",
     },
   ];
 
@@ -126,10 +90,11 @@ export function AboutSection() {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              I&apos;m a Data Engineer and Full Stack Developer passionate about
-              building scalable data pipelines and modern web apps. I love
-              solving complex problems and turning ideas into impactful
-              solutions.
+              I'm a Full Stack Engineer with experience building SaaS platforms,
+              healthcare data systems, AI-powered applications, and business
+              automation tools. I specialize in transforming complex
+              requirements into scalable, user-friendly solutions that deliver
+              real business value.
             </p>
           </div>
 
@@ -137,16 +102,21 @@ export function AboutSection() {
             <div>
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                I began as a Software Engineering intern building AI tools and
-                backend systems, and grew into a Data Engineer and Full Stack
-                Developer specializing in ETL pipelines, automation, and web
-                apps in healthcare and e-commerce.
+                My career started in healthcare technology, where I worked on
+                large-scale Electronic Health Record (EHR) data pipelines, ETL
+                processes, and HL7 FHIR standardization projects involving
+                millions of patient records. Over time, I expanded into full
+                stack development, building SaaS platforms, admin dashboards,
+                e-commerce systems, WhatsApp automation solutions, and
+                AI-powered applications using React, Next.js, Node.js, FastAPI,
+                and modern cloud technologies.
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                I believe in the power of data and technology to solve real
-                problems and create meaningful impact. Every project I work on
-                is a chance to build systems that are both scalable and
-                valuable.
+                Today, I focus on developing scalable software that combines
+                strong backend architecture, intuitive user experiences,
+                automation, and AI capabilities. Whether it's a startup MVP, an
+                internal business platform, or a complex data-driven system, I
+                enjoy turning ideas into production-ready solutions.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-8">

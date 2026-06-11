@@ -115,11 +115,11 @@ export function ContactSection() {
         >
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Get In Touch
+              Have a Project in Mind?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to start your next project? Let&apos;s work together to
-              create something amazing.
+              I help businesses transform ideas into scalable applications using
+              modern web technologies, cloud infrastructure, and automation.
             </p>
           </div>
 
@@ -128,9 +128,9 @@ export function ContactSection() {
               <h3 className="text-2xl font-semibold mb-6">Let&apos;s Talk</h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 I&apos;m always interested in hearing about new projects and
-                opportunities. Whether you&apos;re a startup looking to build your
-                first product or an established company wanting to improve your
-                digital presence, I&apos;d love to help.
+                opportunities. Whether you&apos;re a startup looking to build
+                your first product or an established company wanting to improve
+                your digital presence, I&apos;d love to help.
               </p>
 
               <div className="space-y-6">

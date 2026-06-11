@@ -15,7 +15,10 @@ export function Footer() {
               Vignesh
             </h3>
             <p className="text-muted-foreground mb-4">
-              Creating beautiful digital experiences that make a difference.
+              Full Stack Engineer specializing in SaaS platforms, AI
+              integrations, healthcare data systems and business automation.
+              <br />
+              Available for freelance projects.
             </p>
             <div className="flex space-x-4">
               <Button
@@ -55,63 +58,25 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              <li>
-                <a
-                  href="#home"
-                  className="hover:text-primary transition-colors duration-200"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  className="hover:text-primary transition-colors duration-200"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#services"
-                  className="hover:text-primary transition-colors duration-200"
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#portfolio"
-                  className="hover:text-primary transition-colors duration-200"
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="hover:text-primary transition-colors duration-200"
-                >
-                  Contact
-                </a>
-              </li>
+            <h4 className="font-semibold mb-4">Highlights</h4>
+
+            <ul className="space-y-3 text-muted-foreground">
+              <li>✓ 10+ Projects Delivered</li>
+              <li>✓ 5M+ Healthcare Records Processed</li>
+              <li>✓ SaaS & Business Applications</li>
+              <li>✓ AI & Automation Solutions</li>
+              <li>✓ Full Stack & Data Engineering</li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li>Full Stack Development</li>
+              <li>SaaS Development</li>
+              <li>AI Integrations</li>
+              <li>API Development</li>
               <li>Data Engineering</li>
-              <li>Cloud & DevOps</li>
-              <li>Workflow Automation</li>
-              <li>Healthcare Data Solutions</li>
-              <li>Mobile Development</li>
-              <li>UI/UX Design</li>
-              <li>SEO Optimization</li>
-              <li>Advertising Services</li>
+              <li>Business Automation</li>
             </ul>
           </div>
         </div>
@@ -122,8 +87,7 @@ export function Footer() {
               © {currentYear} Vignesh. All rights reserved.
             </p>
             <p className="text-muted-foreground flex items-center mt-4 md:mt-0">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> using
-              Next.js
+              Building scalable software, automation and AI-powered solutions.
             </p>
           </div>
         </div>
